@@ -1,172 +1,47 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
+* {
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+  margin: 0;
 }
 /* end of css reset */
 body {
-  background: aliceblue;
+  background: hsl(207, 47%, 24%);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 header {
+  color: ghostwhite;
   margin: 5vh auto;
   font-family: "Tangerine", cursive;
   font-size: 40px;
 }
 .card {
-  margin: 0 auto;
-  width: 80vw;
-  padding: 50px 15px;
-  background-color: #e1f3f3;
-  box-sizing: border-box;
-  line-height: 2em;
-  border-radius: 15px;
-}
-/* add lyt before card */
-
-.card #quote {
-  font-size: 1.3em;
-  font-family: "Cutive Mono", monospace;
-}
-.card #name {
-  padding-right: 25px;
-  text-align: right;
-  font-family: "Courier Prime", monospace;
-}
-.randombtn {
-  margin: 10px auto;
   display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  height: 400px;
+  width: 350px;
+  background-color: rgb(235, 235, 235);
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: -10px 10px 18px -5px hsla(0, 0%, 0%, 0.295);
 }
-#randomButton {
-  margin: 50px auto 0;
-  text-align: center;
-  width: 30vw;
-  height: 50px;
-  color: aliceblue;
-  background-color: blue;
-  border: none;
-  font-size: 20px;
+.polaroid {
+  display: flex;
+  box-sizing: border-box;
+  margin: 20px auto;
+  height: 310px;
+  background-color: crimson;
+  width: 310px;
+  justify-content: center;
+  align-items: center;
 }
-#randomButton:hover {
-  cursor: pointer;
+.polaroid #quote {
+  font-family: "Cutive Momo", monospace;
+  padding: 10px 15px;
+}
+
+#name {
+  font-family: "Courier Prime";
+  margin: 0 auto;
 }

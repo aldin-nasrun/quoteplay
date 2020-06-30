@@ -4,7 +4,7 @@ let randomKey = Math.floor(Math.random() * 10);
 let numkey = randomKey;
 //array to card
 const quoteText = quote[numkey];
-const quoteName = `-${name[numkey]}`;
+const quoteName = name[numkey];
 //console.log(quote[randomKey]);
 var arrayQuote = quoteText.split("");
 var arrayName = quoteName.split("");
