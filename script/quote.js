@@ -1,7 +1,7 @@
 const quote = [
   "Love For All, Hatred For None. ",
-  "Change the world by being yourself",
-  "Every moment is a fresh beginning",
+  "Change the world by being yourself.",
+  "Every moment is a fresh beginning.",
   "Never regret anything that made you smile.",
   "Die with memories, not dreams.",
   "Aspire to inspire before we expire.",
@@ -10,4 +10,17 @@ const quote = [
   "Whatever you do, do it well.",
   "What we think, we become.",
   "All limitations are self-imposed.",
+];
+const name = [
+  "Khalifatul Masih III",
+  "Amy Poehler",
+  "T.S Eliot",
+  "Mark Twain",
+  "Unknow",
+  "Unknow",
+  "Pablo Picasso",
+  "Leonardo Da Vinci ",
+  "Walt Disney",
+  "Buddha",
+  "Oliver Wendell Holmes",
 ];
