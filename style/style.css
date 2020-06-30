@@ -7,7 +7,6 @@ body {
   background: hsl(207, 47%, 24%);
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 header {
   color: ghostwhite;
@@ -31,7 +30,7 @@ header {
   box-sizing: border-box;
   margin: 20px auto;
   height: 310px;
-  background-color: crimson;
+  background: image("./1png");
   width: 310px;
   justify-content: center;
   align-items: center;
@@ -42,6 +41,19 @@ header {
 }
 
 #name {
-  font-family: "Courier Prime";
+  font-family: "Courier Prime", monospace;
   margin: 0 auto;
+}
+.randombtn {
+  display: flex;
+}
+#randomButton {
+  font-family: "Cutive Momo", monospace;
+  padding: 1em 3em;
+  margin: 25px auto;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 20px;
+  font-weight: 500;
+  border: none;
 }
