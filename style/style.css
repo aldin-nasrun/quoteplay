@@ -124,12 +124,7 @@ table {
 }
 /* end of css reset */
 body {
-  background: rgb(255, 228, 181);
-  background: radial-gradient(
-    circle,
-    rgba(255, 228, 181, 1) 0%,
-    rgba(244, 255, 252, 1) 81%
-  );
+  background: aliceblue;
   display: flex;
   flex-direction: column;
 }
@@ -141,14 +136,21 @@ header {
 .card {
   margin: 0 auto;
   width: 80vw;
-  padding: 25px 10px;
-  background-color: aqua;
+  padding: 50px 15px;
+  background-color: #e1f3f3;
   box-sizing: border-box;
+  line-height: 2em;
+  border-radius: 15px;
 }
+/* add lyt before card */
+
 .card #quote {
+  font-size: 1.3em;
   font-family: "Cutive Mono", monospace;
 }
 .card #name {
+  padding-right: 25px;
+  text-align: right;
   font-family: "Courier Prime", monospace;
 }
 .randombtn {
@@ -156,13 +158,14 @@ header {
   display: flex;
 }
 #randomButton {
-  margin: 0 auto;
+  margin: 50px auto 0;
   text-align: center;
   width: 30vw;
   height: 50px;
   color: aliceblue;
   background-color: blue;
   border: none;
+  font-size: 20px;
 }
 #randomButton:hover {
   cursor: pointer;
