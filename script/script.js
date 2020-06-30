@@ -1,4 +1,5 @@
 // make random key and numkey
+
 let randomKey = Math.floor(Math.random() * 10);
 let numkey = randomKey;
 //array to card
@@ -17,7 +18,6 @@ function frameLooper() {
   }
   loopTimer = setTimeout("frameLooper()", 70); /* change 70 for speed */
 }
-frameLooper();
 
 function frameLooper2() {
   if (arrayName.length > 0) {
@@ -27,4 +27,11 @@ function frameLooper2() {
   }
   loopTimer = setTimeout("frameLooper2()", 200); /* change 70 for speed */
 }
-frameLooper2();
+let random = (frameLooper(), frameLooper2());
+random;
+// add random button function
+const randomBtn = document
+  .querySelector("#randomButton")
+  .addEventListener("click", function () {
+    location.reload();
+  });
