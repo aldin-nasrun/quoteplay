@@ -26,16 +26,17 @@ header {
   box-shadow: -10px 10px 18px -5px hsla(0, 0%, 0%, 0.295);
 }
 .polaroid {
+  background-image: url("https://raw.githubusercontent.com/aldin-nasrun/quoteplay/master/img/1.png");
   display: flex;
   box-sizing: border-box;
   margin: 20px auto;
   height: 310px;
-  background: image("./1png");
   width: 310px;
   justify-content: center;
   align-items: center;
 }
 .polaroid #quote {
+  text-shadow: 2px 2px 2px ivory;
   font-family: "Cutive Momo", monospace;
   padding: 10px 15px;
 }

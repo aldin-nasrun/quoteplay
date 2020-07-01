@@ -34,4 +34,5 @@ const randomBtn = document
   .querySelector("#randomButton")
   .addEventListener("click", function () {
     location.reload();
+    randombg();
   });
