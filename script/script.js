@@ -36,3 +36,4 @@ const randomBtn = document
     location.reload();
     randombg();
   });
+  background-image: url("https://raw.githubusercontent.com/aldin-nasrun/quoteplay/master/img/1.png");
