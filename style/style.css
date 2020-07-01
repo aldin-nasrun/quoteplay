@@ -26,7 +26,8 @@ header {
   box-shadow: -10px 10px 18px -5px hsla(0, 0%, 0%, 0.295);
 }
 .polaroid {
-  background-image: url('https://raw.githubusercontent.com/aldin-nasrun/quoteplay/master/img/4.png');
+  background: url(https://source.unsplash.com/1600x900/?nature,water);
+  filter : grayscale(100%);
   display: flex;
   box-sizing: border-box;
   margin: 20px auto;
