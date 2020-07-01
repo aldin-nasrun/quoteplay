@@ -30,10 +30,8 @@ function frameLooper2() {
 let random = (frameLooper(), frameLooper2());
 random;
 // add random button function
-const randomBtn = document
-  .querySelector("#randomButton")
-  .addEventListener("click", function () {
-    location.reload();
-    randombg();
-  });
-  background-image: url("https://raw.githubusercontent.com/aldin-nasrun/quoteplay/master/img/1.png");
+const randomBtn = document.querySelector("#randomButton").addEventListener("click", function () {
+  location.reload();
+  console.log(bigSize[ranKey]);
+  randombg();
+});
