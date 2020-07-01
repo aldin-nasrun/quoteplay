@@ -27,8 +27,8 @@ header {
 }
 .polaroid {
   background: url(https://picsum.photos/300?grayscale);
-  filter : sepia(15%) contrast(-100%) brightness(150%git );
-  background-size:cover;
+  filter: sepia(15%) contrast(-100%) brightness(150%);
+  background-size: cover;
   display: flex;
   box-sizing: border-box;
   margin: 20px auto;
